@@ -1,0 +1,22 @@
+-> Redux is used for state management of any application, this is done with the help of a centralised/ global store.
+-> It has 1) Action (what to do)
+          2) Reducer (how to do)
+          3) Store (has the application state) 
+
+Action:
+action are plain js object that have type field
+action is created by a action creator , which is a pure function
+
+Reducer:
+reducer takes function that takes the current/initial state and an action as argumments and return a new state as a result
+
+Store:
+store has state, actions, reducers all together
+we will only have a single store in a redux application
+every redux store has a single root reducer function
+
+Redux principles:
+-> Global state of our application is stored as an object inside a single Store.
+-> The only way to change the state is to dispatch an action.
+-> Immutability, one way data flow, predictability of outcome.
+-> changes are made with pure reducer function
