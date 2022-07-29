@@ -14,11 +14,13 @@
 
 .box h3 {
   position: relative;
-  left: 240px;
+  left: 230px;
 }
+
+
 .item-input {
   position: relative;
-  left: 250px;
+  left: 240px;
   height: 40px;
   width: 40px;
   background-color: antiquewhite;
@@ -28,20 +30,21 @@
 }
 .negative {
   position: relative;
-  left: 220px;
+  left: 210px;
   border: 1px solid black;
   padding: 5px;
   background-color: red;
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 .positive {
   position: relative;
-  left: 270px;
+  left: 260px;
   border: 1px solid black;
   padding: 5px;
   background-color: green;
   color: white;
   text-decoration: none;
-
+ cursor: pointer;
 }
